@@ -2,6 +2,8 @@
 
 This is a sudoku solver using backtracking algorithm that solves sudoku boards and also determines if board are solvable.
 
+As compared to the brute force method of testing every possible number O(n^(n²)), backtracking runs at to O(n^m), greatly improving efficiency (n = dimension of the board, m = number of blank spaces).
+
 For rules regarding how sudoku works, [click here](https://sudoku.com/how-to-play/sudoku-rules-for-complete-beginners/#:~:text=Sudoku%20is%20played%20on%20a,the%20row%2C%20column%20or%20square.). 
 
 ## Initialization & Version Control
