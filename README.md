@@ -1,6 +1,6 @@
 # Sudoku Solver
 
-This is a sudoku solver using backtracking algorithm that solves sudoku boards and also determines if board are solvable.
+Inspired by Leetcode problems, this sudoku solver uses backtracking algorithm to solve sudoku boards and also determines if board is solvable.
 
 As compared to the brute force method of testing every possible number O(n^(n²)), backtracking runs at to O(n^m), greatly improving efficiency (n = dimension of the board, m = number of blank spaces).
 
